@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemDefinitionGroup>
+    <PreBuildEvent>
+      <Command>
+        %(Command)
+        echo tdk.pubs pre-build ...
+        rmdir /S /Q "$(TdkPubDir)"
+        for /F "delims=" %%x in ('dir "$(OutDir)" /B /AD') do rmdir /S /Q "$(OutDir)%%x"
+        for /F "delims=" %%x in ('dir "$(OutDir)" /B /A-D ^| findstr /V /E ".dll .exe .lib .idb .ilk .pdb"') do del /Q "$(OutDir)%%x"
+        ver &gt; nul
+        echo ... done
+      </Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Command>
+        %(Command)
+        echo tdk.pubs post-build ...
+        xcopy /E /I /Y "$(TdkSolutionBuildDir)$(TdkBinSubPath)*" "$(TdkPubDir)"
+        xcopy /E /I /Y "$(TdkContentDir)*" "$(TdkPubDir)"
+        erase "$(TdkPubDir)*.pdb"
+        echo _AUTO_GENERATED_DO_NOT_EDIT_ &gt; "$(TdkPubDir)_AUTO_GENERATED_DO_NOT_EDIT_"
+        ver &gt; nul
+        echo ... done
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+</Project>

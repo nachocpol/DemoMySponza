@@ -1,0 +1,361 @@
+﻿  tdk.pubs pre-build ...
+  ... done
+  DeferMySponza.vcxproj -> C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\DeferMySponza.exe
+  DeferMySponza.vcxproj -> C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\DeferMySponza.pdb (Full PDB)
+  tdk application post-build ...
+  doc\readme.txt
+  1 archivo(s) copiado(s)
+  ... done
+  tdk post-build ...
+  doc\readme.txt
+  1 archivo(s) copiado(s)
+  No se encuentra el archivo: *
+  0 archivo(s) copiado(s)
+  shaders\compose.fs
+  shaders\compose.vs
+  shaders\deferred1.fs
+  shaders\deferred1.vs
+  shaders\deferredDirect.fs
+  shaders\deferredDirect.vs
+  shaders\deferredPoint.fs
+  shaders\deferredPoint.vs
+  shaders\deferredSpot.fs
+  shaders\deferredSpot.vs
+  shaders\dof.fs
+  shaders\dof.vs
+  shaders\dofblur.fs
+  shaders\dofblur.vs
+  shaders\fbo.fs
+  shaders\fbo.vs
+  shaders\fxaa.fs
+  shaders\fxaa.vs
+  shaders\shadow.fs
+  shaders\shadow.vs
+  shaders\ssao.fs
+  shaders\ssao.vs
+  shaders\ssaoBlur.fs
+  shaders\ssaoBlur.vs
+  shaders\test.fs
+  shaders\test.vs
+  shaders\img\sky\back.png
+  shaders\img\sky\down.png
+  shaders\img\sky\front.png
+  shaders\img\sky\left.png
+  shaders\img\sky\right.png
+  shaders\img\sky\up.png
+  shaders\img\sponza\Background_Albedo.jpg
+  shaders\img\sponza\Background_Normal.jpg
+  shaders\img\sponza\Background_Roughness.jpg
+  shaders\img\sponza\ChainTexture_Albedo.jpg
+  shaders\img\sponza\ChainTexture_Metallic.jpg
+  shaders\img\sponza\ChainTexture_Normal.jpg
+  shaders\img\sponza\ChainTexture_Roughness.jpg
+  shaders\img\sponza\Dielectric_metallic.jpg
+  shaders\img\sponza\gi_flag.jpg
+  shaders\img\sponza\Lion_Albedo.jpg
+  shaders\img\sponza\Lion_Normal.jpg
+  shaders\img\sponza\Lion_Roughness.jpg
+  shaders\img\sponza\Metallic_metallic.jpg
+  shaders\img\sponza\Sponza_Arch_diffuse.jpg
+  shaders\img\sponza\Sponza_Arch_normal.jpg
+  shaders\img\sponza\Sponza_Arch_roughness.jpg
+  shaders\img\sponza\Sponza_Bricks_a_Albedo.jpg
+  shaders\img\sponza\Sponza_Bricks_a_Normal.jpg
+  shaders\img\sponza\Sponza_Bricks_a_Roughness.jpg
+  shaders\img\sponza\Sponza_Ceiling_diffuse.jpg
+  shaders\img\sponza\Sponza_Ceiling_normal.jpg
+  shaders\img\sponza\Sponza_Ceiling_roughness.jpg
+  shaders\img\sponza\Sponza_Column_a_diffuse.jpg
+  shaders\img\sponza\Sponza_Column_a_normal.jpg
+  shaders\img\sponza\Sponza_Column_a_roughness.jpg
+  shaders\img\sponza\Sponza_Column_b_diffuse.jpg
+  shaders\img\sponza\Sponza_Column_b_normal.jpg
+  shaders\img\sponza\Sponza_Column_b_roughness.jpg
+  shaders\img\sponza\Sponza_Column_c_diffuse.jpg
+  shaders\img\sponza\Sponza_Column_c_normal.jpg
+  shaders\img\sponza\Sponza_Column_c_roughness.jpg
+  shaders\img\sponza\Sponza_Curtain_Blue_diffuse.jpg
+  shaders\img\sponza\Sponza_Curtain_Blue_normal.jpg
+  shaders\img\sponza\Sponza_Curtain_Green_diffuse.jpg
+  shaders\img\sponza\Sponza_Curtain_Green_normal.jpg
+  shaders\img\sponza\Sponza_Curtain_metallic.jpg
+  shaders\img\sponza\Sponza_Curtain_Red_diffuse.jpg
+  shaders\img\sponza\Sponza_Curtain_Red_normal.jpg
+  shaders\img\sponza\Sponza_Curtain_roughness.jpg
+  shaders\img\sponza\Sponza_Details_diffuse.jpg
+  shaders\img\sponza\Sponza_Details_metallic.jpg
+  shaders\img\sponza\Sponza_Details_normal.jpg
+  shaders\img\sponza\Sponza_Details_roughness.jpg
+  shaders\img\sponza\Sponza_Fabric_Blue_diffuse.jpg
+  shaders\img\sponza\Sponza_Fabric_Blue_normal.jpg
+  shaders\img\sponza\Sponza_Fabric_Green_diffuse.jpg
+  shaders\img\sponza\Sponza_Fabric_Green_normal.jpg
+  shaders\img\sponza\Sponza_Fabric_metallic.jpg
+  shaders\img\sponza\Sponza_Fabric_Red_diffuse.jpg
+  shaders\img\sponza\Sponza_Fabric_Red_normal.jpg
+  shaders\img\sponza\Sponza_Fabric_roughness.jpg
+  shaders\img\sponza\Sponza_FlagPole_diffuse.jpg
+  shaders\img\sponza\Sponza_FlagPole_normal.jpg
+  shaders\img\sponza\Sponza_FlagPole_roughness.jpg
+  shaders\img\sponza\Sponza_Floor_diffuse.jpg
+  shaders\img\sponza\Sponza_Floor_normal.jpg
+  shaders\img\sponza\Sponza_Floor_roughness.jpg
+  shaders\img\sponza\Sponza_Roof_diffuse.jpg
+  shaders\img\sponza\Sponza_Roof_normal.jpg
+  shaders\img\sponza\Sponza_Roof_roughness.jpg
+  shaders\img\sponza\Sponza_Thorn_diffuse.jpg
+  shaders\img\sponza\Sponza_Thorn_normal.jpg
+  shaders\img\sponza\Sponza_Thorn_roughness.jpg
+  shaders\img\sponza\VaseHanging_diffuse.jpg
+  shaders\img\sponza\VaseHanging_normal.jpg
+  shaders\img\sponza\VaseHanging_roughness.jpg
+  shaders\img\sponza\VasePlant_diffuse.jpg
+  shaders\img\sponza\VasePlant_normal.jpg
+  shaders\img\sponza\VasePlant_roughness.jpg
+  shaders\img\sponza\VaseRound_diffuse.jpg
+  shaders\img\sponza\VaseRound_normal.jpg
+  shaders\img\sponza\VaseRound_roughness.jpg
+  shaders\img\sponza\Vase_diffuse.jpg
+  shaders\img\sponza\Vase_normal.jpg
+  shaders\img\sponza\Vase_roughness.jpg
+  shaders\img\sponza\JPEG\background.jpg
+  shaders\img\sponza\JPEG\background_ddn.jpg
+  shaders\img\sponza\JPEG\background_ddn_1.jpg
+  shaders\img\sponza\JPEG\chain_texture.jpg
+  shaders\img\sponza\JPEG\chain_texture_ddn.jpg
+  shaders\img\sponza\JPEG\chain_texture_mask.jpg
+  shaders\img\sponza\JPEG\lion.jpg
+  shaders\img\sponza\JPEG\lion2_ddn.jpg
+  shaders\img\sponza\JPEG\lion_ddn.jpg
+  shaders\img\sponza\JPEG\spnza_bricks_a_ddn.jpg
+  shaders\img\sponza\JPEG\spnza_bricks_a_diff.jpg
+  shaders\img\sponza\JPEG\spnza_bricks_a_spec.jpg
+  shaders\img\sponza\JPEG\sponza_arch_ddn.jpg
+  shaders\img\sponza\JPEG\sponza_arch_diff.jpg
+  shaders\img\sponza\JPEG\sponza_arch_spec.jpg
+  shaders\img\sponza\JPEG\sponza_ceiling_a_ddn.jpg
+  shaders\img\sponza\JPEG\sponza_ceiling_a_diff.jpg
+  shaders\img\sponza\JPEG\sponza_ceiling_a_spec.jpg
+  shaders\img\sponza\JPEG\sponza_column_a_ddn.jpg
+  shaders\img\sponza\JPEG\sponza_column_a_diff.jpg
+  shaders\img\sponza\JPEG\sponza_column_a_spec.jpg
+  shaders\img\sponza\JPEG\sponza_column_b_ddn.jpg
+  shaders\img\sponza\JPEG\sponza_column_b_diff.jpg
+  shaders\img\sponza\JPEG\sponza_column_b_spec.jpg
+  shaders\img\sponza\JPEG\sponza_column_c_ddn.jpg
+  shaders\img\sponza\JPEG\sponza_column_c_diff.jpg
+  shaders\img\sponza\JPEG\sponza_column_c_spec.jpg
+  shaders\img\sponza\JPEG\sponza_curtain_blue_ddn.jpg
+  shaders\img\sponza\JPEG\sponza_curtain_blue_diff.jpg
+  shaders\img\sponza\JPEG\sponza_curtain_diff.jpg
+  shaders\img\sponza\JPEG\sponza_curtain_green_diff.jpg
+  shaders\img\sponza\JPEG\sponza_details_diff.jpg
+  shaders\img\sponza\JPEG\sponza_details_spec.jpg
+  shaders\img\sponza\JPEG\sponza_fabric_blue_diff.jpg
+  shaders\img\sponza\JPEG\sponza_fabric_diff.jpg
+  shaders\img\sponza\JPEG\sponza_fabric_green_diff.jpg
+  shaders\img\sponza\JPEG\sponza_fabric_spec.jpg
+  shaders\img\sponza\JPEG\sponza_flagpole_diff.jpg
+  shaders\img\sponza\JPEG\sponza_flagpole_spec.jpg
+  shaders\img\sponza\JPEG\sponza_floor_a_ddn.jpg
+  shaders\img\sponza\JPEG\sponza_floor_a_diff.jpg
+  shaders\img\sponza\JPEG\sponza_floor_a_spec.jpg
+  shaders\img\sponza\JPEG\sponza_roof_diff.jpg
+  shaders\img\sponza\JPEG\sponza_thorn_ddn.jpg
+  shaders\img\sponza\JPEG\sponza_thorn_diff.jpg
+  shaders\img\sponza\JPEG\sponza_thorn_mask.jpg
+  shaders\img\sponza\JPEG\sponza_thorn_spec.jpg
+  shaders\img\sponza\JPEG\vase_ddn.jpg
+  shaders\img\sponza\JPEG\vase_dif.jpg
+  shaders\img\sponza\JPEG\vase_hanging.jpg
+  shaders\img\sponza\JPEG\vase_plant.jpg
+  shaders\img\sponza\JPEG\vase_plant_mask.jpg
+  shaders\img\sponza\JPEG\vase_plant_spec.jpg
+  shaders\img\sponza\JPEG\vase_round.jpg
+  shaders\img\sponza\JPEG\vase_round_ddn.jpg
+  shaders\img\sponza\JPEG\vase_round_spec.jpg
+  163 archivo(s) copiado(s)
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\external\bin\x64\tcf.dll
+  1 archivo(s) copiado(s)
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\external\bin\x64\tsl.dll
+  1 archivo(s) copiado(s)
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\external\bin\x64\glfw3.dll
+  1 archivo(s) copiado(s)
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\external\bin\x64\tdl.dll
+  1 archivo(s) copiado(s)
+  ... done
+  tdk.pubs post-build ...
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\compose.fs
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\compose.vs
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\DeferMySponza.exe
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\DeferMySponza.pdb
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\deferred1.fs
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\deferred1.vs
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\deferredDirect.fs
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\deferredDirect.vs
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\deferredPoint.fs
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\deferredPoint.vs
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\deferredSpot.fs
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\deferredSpot.vs
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\dof.fs
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\dof.vs
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\dofblur.fs
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\dofblur.vs
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\fbo.fs
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\fbo.vs
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\fxaa.fs
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\fxaa.vs
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\glfw3.dll
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\readme.txt
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\shadow.fs
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\shadow.vs
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\ssao.fs
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\ssao.vs
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\ssaoBlur.fs
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\ssaoBlur.vs
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\tcf.dll
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\tdl.dll
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\test.fs
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\test.vs
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\tsl.dll
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sky\back.png
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sky\down.png
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sky\front.png
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sky\left.png
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sky\right.png
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sky\up.png
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\Background_Albedo.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\Background_Normal.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\Background_Roughness.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\ChainTexture_Albedo.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\ChainTexture_Metallic.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\ChainTexture_Normal.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\ChainTexture_Roughness.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\Dielectric_metallic.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\gi_flag.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\Lion_Albedo.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\Lion_Normal.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\Lion_Roughness.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\Metallic_metallic.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\Sponza_Arch_diffuse.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\Sponza_Arch_normal.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\Sponza_Arch_roughness.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\Sponza_Bricks_a_Albedo.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\Sponza_Bricks_a_Normal.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\Sponza_Bricks_a_Roughness.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\Sponza_Ceiling_diffuse.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\Sponza_Ceiling_normal.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\Sponza_Ceiling_roughness.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\Sponza_Column_a_diffuse.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\Sponza_Column_a_normal.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\Sponza_Column_a_roughness.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\Sponza_Column_b_diffuse.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\Sponza_Column_b_normal.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\Sponza_Column_b_roughness.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\Sponza_Column_c_diffuse.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\Sponza_Column_c_normal.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\Sponza_Column_c_roughness.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\Sponza_Curtain_Blue_diffuse.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\Sponza_Curtain_Blue_normal.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\Sponza_Curtain_Green_diffuse.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\Sponza_Curtain_Green_normal.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\Sponza_Curtain_metallic.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\Sponza_Curtain_Red_diffuse.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\Sponza_Curtain_Red_normal.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\Sponza_Curtain_roughness.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\Sponza_Details_diffuse.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\Sponza_Details_metallic.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\Sponza_Details_normal.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\Sponza_Details_roughness.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\Sponza_Fabric_Blue_diffuse.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\Sponza_Fabric_Blue_normal.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\Sponza_Fabric_Green_diffuse.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\Sponza_Fabric_Green_normal.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\Sponza_Fabric_metallic.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\Sponza_Fabric_Red_diffuse.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\Sponza_Fabric_Red_normal.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\Sponza_Fabric_roughness.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\Sponza_FlagPole_diffuse.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\Sponza_FlagPole_normal.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\Sponza_FlagPole_roughness.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\Sponza_Floor_diffuse.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\Sponza_Floor_normal.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\Sponza_Floor_roughness.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\Sponza_Roof_diffuse.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\Sponza_Roof_normal.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\Sponza_Roof_roughness.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\Sponza_Thorn_diffuse.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\Sponza_Thorn_normal.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\Sponza_Thorn_roughness.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\VaseHanging_diffuse.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\VaseHanging_normal.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\VaseHanging_roughness.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\VasePlant_diffuse.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\VasePlant_normal.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\VasePlant_roughness.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\VaseRound_diffuse.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\VaseRound_normal.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\VaseRound_roughness.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\Vase_diffuse.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\Vase_normal.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\Vase_roughness.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\JPEG\background.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\JPEG\background_ddn.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\JPEG\background_ddn_1.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\JPEG\chain_texture.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\JPEG\chain_texture_ddn.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\JPEG\chain_texture_mask.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\JPEG\lion.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\JPEG\lion2_ddn.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\JPEG\lion_ddn.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\JPEG\spnza_bricks_a_ddn.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\JPEG\spnza_bricks_a_diff.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\JPEG\spnza_bricks_a_spec.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\JPEG\sponza_arch_ddn.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\JPEG\sponza_arch_diff.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\JPEG\sponza_arch_spec.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\JPEG\sponza_ceiling_a_ddn.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\JPEG\sponza_ceiling_a_diff.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\JPEG\sponza_ceiling_a_spec.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\JPEG\sponza_column_a_ddn.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\JPEG\sponza_column_a_diff.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\JPEG\sponza_column_a_spec.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\JPEG\sponza_column_b_ddn.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\JPEG\sponza_column_b_diff.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\JPEG\sponza_column_b_spec.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\JPEG\sponza_column_c_ddn.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\JPEG\sponza_column_c_diff.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\JPEG\sponza_column_c_spec.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\JPEG\sponza_curtain_blue_ddn.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\JPEG\sponza_curtain_blue_diff.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\JPEG\sponza_curtain_diff.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\JPEG\sponza_curtain_green_diff.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\JPEG\sponza_details_diff.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\JPEG\sponza_details_spec.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\JPEG\sponza_fabric_blue_diff.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\JPEG\sponza_fabric_diff.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\JPEG\sponza_fabric_green_diff.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\JPEG\sponza_fabric_spec.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\JPEG\sponza_flagpole_diff.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\JPEG\sponza_flagpole_spec.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\JPEG\sponza_floor_a_ddn.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\JPEG\sponza_floor_a_diff.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\JPEG\sponza_floor_a_spec.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\JPEG\sponza_roof_diff.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\JPEG\sponza_thorn_ddn.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\JPEG\sponza_thorn_diff.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\JPEG\sponza_thorn_mask.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\JPEG\sponza_thorn_spec.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\JPEG\vase_ddn.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\JPEG\vase_dif.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\JPEG\vase_hanging.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\JPEG\vase_plant.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\JPEG\vase_plant_mask.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\JPEG\vase_plant_spec.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\JPEG\vase_round.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\JPEG\vase_round_ddn.jpg
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\build\bin\x64\Release\img\sponza\JPEG\vase_round_spec.jpg
+  170 archivo(s) copiado(s)
+  C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SponzaPerformance\content\sponza_with_friends_2x.tcf
+  1 archivo(s) copiado(s)
+  ... done

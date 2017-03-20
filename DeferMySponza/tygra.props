@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TdkRequiredDlls>"$(TdkPackagesUniDllDir)glfw3.dll" "$(TdkPackagesUniDllDir)tdl.dll" $(TdkRequiredDlls)</TdkRequiredDlls>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <Link>
+      <AdditionalDependencies>tygra.lib;tgl.lib;glfw3dll.lib;tdl.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Platform)'=='x64'">
+    <TdkNvtxName>nvToolsExt64_1</TdkNvtxName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Platform)'=='Win32'">
+    <TdkNvtxName>nvToolsExt32_1</TdkNvtxName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(TdkUseNvtx)'=='true'">
+    <TdkRequiredDlls>"$(TdkPackagesUniDllDir)$(TdkNvtxName).dll" $(TdkRequiredDlls)</TdkRequiredDlls>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(TdkUseNvtx)'=='true'">
+    <Link>
+      <AdditionalDependencies>$(TdkNvtxName).lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <ClCompile>
+      <PreprocessorDefinitions>TDK_NVTX;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+</Project>

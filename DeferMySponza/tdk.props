@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup>
+    <Import Project="*.vars.props" />
+    <Import Project="$(SolutionDir)*.vars.props" />
+  </ImportGroup>
+  <PropertyGroup Label="TdkVars">
+    <TdkBaseConfiguration Condition="'$(TdkBaseConfiguration)'==''">$(Configuration)</TdkBaseConfiguration>
+    <TdkIncSubPath Condition="'$(TdkIncSubPath)'==''">include\</TdkIncSubPath>
+    <TdkBinSubPath Condition="'$(TdkBinSubPath)'==''">bin\$(Platform)\$(TdkBaseConfiguration)\</TdkBinSubPath>
+    <TdkLibSubPath Condition="'$(TdkLibSubPath)'==''">lib\$(Platform)\$(TdkBaseConfiguration)\$(PlatformToolset)\</TdkLibSubPath>
+    <TdkImpSubPath Condition="'$(TdkImpSubPath)'==''">lib\$(Platform)\$(TdkBaseConfiguration)\</TdkImpSubPath>
+    <TdkUniBinSubPath Condition="'$(TdkUniBinSubPath)'==''">bin\$(Platform)\</TdkUniBinSubPath>
+    <TdkUniImpSubPath Condition="'$(TdkUniImpSubPath)'==''">lib\$(Platform)\</TdkUniImpSubPath>
+    <TdkDocSubPath Condition="'$(TdkDocSubPath)'==''">doc\</TdkDocSubPath>
+    <TdkResSubPath Condition="'$(TdkResSubPath)'==''">res\</TdkResSubPath>
+    <TdkIntSubPath Condition="'$(TdkIntSubPath)'==''">$(Platform)\$(TdkBaseConfiguration)\</TdkIntSubPath>
+    <TdkProjectBuildDir Condition="'$(TdkProjectBuildDir)'==''">build\</TdkProjectBuildDir>
+    <TdkSolutionBuildDir Condition="'$(TdkSolutionBuildDir)'==''">$(SolutionDir)build\</TdkSolutionBuildDir>
+    <TdkPackagesDir Condition="'$(TdkPackagesDir)'==''">$(SolutionDir)external\</TdkPackagesDir>
+    <TdkPackagesDllDir Condition="'$(TdkPackagesDllDir)'==''">$(TdkPackagesDir)$(TdkBinSubPath)</TdkPackagesDllDir>
+    <TdkPackagesUniDllDir Condition="'$(TdkPackagesUniDllDir)'==''">$(TdkPackagesDir)$(TdkUniBinSubPath)</TdkPackagesUniDllDir>
+    <TdkPubDir Condition="'$(TdkPubDir)'==''">$(SolutionDir)pub\</TdkPubDir>
+    <TdkContentDir Condition="'$(TdkContentDir)'==''">$(SolutionDir)content\</TdkContentDir>
+    <TdkTestDataDir Condition="'$(TdkTestDataDir)'==''">$(SolutionDir)testdata\</TdkTestDataDir>
+    <TdkRequiredDlls Condition="'$(TdkRequiredDlls)'==''"></TdkRequiredDlls>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(ConfigurationType)'!='StaticLibrary'">
+    <TdkOutSubPath>$(TdkBinSubPath)</TdkOutSubPath>
+
+    <!-- this is a hack to ensure file copies take place until msbuild targets can be conquered -->
+    <DisableFastUpToDateCheck>true</DisableFastUpToDateCheck>
+
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(ConfigurationType)'=='StaticLibrary'">
+    <TdkOutSubPath>$(TdkLibSubPath)</TdkOutSubPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OutDir>$(TdkSolutionBuildDir)$(TdkOutSubPath)</OutDir>
+    <IntDir>$(TdkProjectBuildDir)$(TdkIntSubPath)</IntDir>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerWorkingDirectory>$(TdkPubDir)</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(TdkBaseConfiguration)'=='Debug'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(TdkBaseConfiguration)'=='Release'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(ConfigurationType)'=='Application'">
+    <PostBuildEvent>
+      <Command>
+        %(Command)
+        echo tdk application post-build ...
+        xcopy /E /I /Y "$(TdkDocSubPath)*" "$(OutDir)"
+        ver &gt; nul
+        echo ... done
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(TdkIncSubPath);$(TdkSolutionBuildDir)$(TdkIncSubPath);$(TdkPackagesDir)$(TdkIncSubPath);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(TdkSolutionBuildDir)$(TdkLibSubPath);$(TdkSolutionBuildDir)$(TdkUniImpSubPath);$(TdkSolutionBuildDir)$(TdkImpSubPath);$(TdkPackagesDir)$(TdkLibSubPath);$(TdkPackagesDir)$(TdkUniImpSubPath);$(TdkPackagesDir)$(TdkImpSubPath);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <LinkTimeCodeGeneration>Default</LinkTimeCodeGeneration>
+      <ImportLibrary>$(TdkSolutionBuildDir)$(TdkImpSubPath)$(TargetName).lib</ImportLibrary>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <LinkTimeCodeGeneration>false</LinkTimeCodeGeneration>
+    </Lib>
+    <PostBuildEvent>
+      <Command>
+        %(Command)
+        echo tdk post-build ...
+        xcopy /E /I /Y "$(TdkDocSubPath)*" "$(TdkSolutionBuildDir)$(TdkDocSubPath)"
+        xcopy /E /I /Y "$(TdkIncSubPath)*" "$(TdkSolutionBuildDir)$(TdkIncSubPath)"
+        xcopy /E /I /Y "$(TdkResSubPath)*" "$(OutDir)"
+        for %%x in ($(TdkRequiredDlls)) do xcopy /I /Y %%x "$(OutDir)"
+        ver &gt; nul
+        echo ... done
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <!--
+  <ImportGroup>
+    <Import Project="tdk.targets" />
+  </ImportGroup>
+  -->
+</Project>
+  
